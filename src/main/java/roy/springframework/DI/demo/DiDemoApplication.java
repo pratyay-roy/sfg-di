@@ -20,7 +20,6 @@ public class DiDemoApplication {
 		a new instance of my controller object
 
 		FUNDAMENTAL WAY OF DI where framework does all the management
-		
 		 */
 		MyController myController = (MyController) ctx.getBean("myController");
 
